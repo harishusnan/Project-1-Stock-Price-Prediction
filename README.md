@@ -1,7 +1,7 @@
 # Project-1-Stock-Price-Predictions
 
 
-##### Project Description
+### Project Description
 
 Develop a supervised machine learning model using Linear Regression (LR) method and Exponential Moving Average (EMA) as a technical indicator
 
@@ -11,7 +11,7 @@ Develop a supervised machine learning model using Linear Regression (LR) method 
 |Data Source (kaggle)|[act_bliz](https://www.kaggle.com/datasets/psycon/game-companies-historical-stock-price-2022-04?select=act_bliz.csv)|
 |Project Source Code|[Stock Prices Prediction LR Model](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/Blizzard%20LR%20Model.ipynb)|
 
-##### Problem Statement
+### Problem Statement
 
 Mr Z is a huge fan of Blizzard company and he has an extra money for an investment. He want to invest in a company with **high reputation** and the **price movement** of its stock prices is **strong uptrend**. It is important for him to analyze the company performance and its stock price pattern before he started to invest his money. Furthermore, identifying the **right time to buy the stock** is his main goal once recognizing the company's stock price pattern.
 
@@ -26,7 +26,7 @@ We assume that Mr Z has already satisfied with the company overall performance o
 *Let's get started!*
 
 
-##### Import Packages & Read Data
+### Import Packages & Read Data
 
 First thing first, we need to import python packages and load our data before we start analyzing and developing our model.
 
@@ -46,7 +46,7 @@ histdata.head()
 
 ![Blizzard Dataset](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset.png)
 
-##### Data Cleaning & Preparation
+### Data Cleaning & Preparation
 
 Looks like we have successfully uploaded our dataset. Now, we apply exploratory descriptive analysis (EDA) method to analyze the data through ```info()``` and ```describe()``` method. 
 
@@ -63,7 +63,7 @@ Next, let us create a new dataset that contains only *Date (Index)* and *Close* 
 We can conclude that there are **no outliers exist** in our dataset and the price movement is **strong uptrend**.
 *So far, so good!*
 
-###### Technical Indicator
+### Technical Indicator
 
 As mentioned above, we will train our model using a technical indicator. Technical indicator is commonly used by experts for future price predictions. There are a lot of technical indicators available such as SMA,EMA,MACD and so on. In our case, we'll use Exponential Moving Average (EMA) as our technical indicator. 
 
@@ -90,9 +90,9 @@ EMA-10 predicts quite well the price of the stock. The plot shows that there is 
 
 
 
-##### Model Development & Evaluation
+### Model Development & Evaluation
 
-###### Split Dataset
+#### Split Dataset
 
 Common practice of developing machine learning models is to split dataset into training and testing data. We need to ensure that training dataset has higher amount of data than testing dataset. In this case, we apply 80/20 partition to form our training and testing data set. 80% of our data will be used for training and we will test our model using the remaining 20% of our data.
 
@@ -103,7 +103,7 @@ x_train,x_test,y_train,y_test = train_test_split(df[["Close"]],df[["EMA_10"]],te
 
 ```
 
-###### Build Model
+#### Build Model
 
 Building models in python is quite simple as we can utilize the python packages provided by the developer. For linear regression model, we use ``` LinearRegression() ``` to build the model.
 
@@ -126,7 +126,7 @@ y_pred = model.predict(x_test)
 Done! Now, we have trained our model and also generated predicted values. Next, we should evaluate our model performance to see how well the model fits our data. We will use mean absolute error (MAE) and coefficient of determination (r2).
 
 
-###### Model Evaluation
+#### Model Evaluation
 
 ```python
 
@@ -147,7 +147,7 @@ We can conclude that our linear regression model fits our data very well. Awesom
 
 
 
-##### Data Visualization and Interpretation
+### Data Visualization and Interpretation
 
 Let's plot our Predicted values against Adjusted Close (EMA-10) values and observe the comparison.
 
