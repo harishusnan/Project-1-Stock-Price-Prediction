@@ -105,7 +105,7 @@ x_train,x_test,y_train,y_test = train_test_split(df[["Close"]],df[["EMA_10"]],te
 
 ###### Build Model
 
-Building models in python is quite simple as we can utilize the python packages provided by the developer. For linear regression model, we use ```python LinearRegression() ``` to build the model.
+Building models in python is quite simple as we can utilize the python packages provided by the developer. For linear regression model, we use ``` LinearRegression() ``` to build the model.
 
 ```python
 
