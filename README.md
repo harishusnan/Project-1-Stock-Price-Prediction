@@ -69,7 +69,7 @@ As mentioned above, we will train our model using a technical indicator. Technic
 
 Fortunately, python has a module called pandas_ta which consists of list of technical indicators for technical analysis (TA) purposes. To apply EMA in our analysis, we need to specify the number of period that we want to calculate its average values. So, let's decided to calculate the EMA over 10 days period and add the values into new column in our dataset.
 
-```
+```python
 
 import pandas_ta
 
@@ -96,8 +96,7 @@ EMA-10 predicts quite well the price of the stock. The plot shows that there is 
 
 Common practice of developing machine learning models is to split dataset into training and testing data. We need to ensure that training dataset has higher amount of data than testing dataset. In this case, we apply 80/20 partition to form our training and testing data set. 80% of our data will be used for training and we will test our model using the remaining 20% of our data.
 
-```
-
+```python
 from sklearn.model_selection import train_test_split
 
 x_train,x_test,y_train,y_test = train_test_split(df[["Close"]],df[["EMA_10"]],test_size=0.2)
@@ -106,9 +105,9 @@ x_train,x_test,y_train,y_test = train_test_split(df[["Close"]],df[["EMA_10"]],te
 
 ###### Build Model
 
-Building models in python is quite simple as we can utilize the python packages provided by the developer. For linear regression model, we use ``` LinearRegression() ``` to build the model.
+Building models in python is quite simple as we can utilize the python packages provided by the developer. For linear regression model, we use ```python LinearRegression() ``` to build the model.
 
-```
+```python
 
 from sklearn.linear_model import LinearRegression
 
@@ -129,11 +128,12 @@ Done! Now, we have trained our model and also generated predicted values. Next, 
 
 ###### Model Evaluation
 
-```
+```python
 
 #evaluation metrics
 #lower MAE is better
 #closer model correlation coefficient to 1.0 the better
+
 print("Model coefficient: ", model.coef_)
 print("Model mean absolute error: ", mean_absolute_error(y_test,y_pred))
 print("Model R squared error: ", r2_score(y_test,y_pred))
@@ -151,7 +151,7 @@ We can conclude that our linear regression model fits our data very well. Awesom
 
 Let's plot our Predicted values against Adjusted Close (EMA-10) values and observe the comparison.
 
-```
+```python
 
 #convert array to dataframe
 y_pred = pd.DataFrame(y_pred)
