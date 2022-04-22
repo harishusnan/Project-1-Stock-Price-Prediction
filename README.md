@@ -10,9 +10,13 @@ Develop a supervised machine learning model using Linear Regression (LR) method 
 
 Mr Z is a huge fan of Blizzard company and he has an extra money for an investment. He want to invest in a company with **high reputation** and the **price movement** of its stock prices is **strong uptrend**. It is important for him to analyze the company performance and its stock price pattern before he started to invest his money. Furthermore, identifying the **right time to buy the stock** is his main goal once recognizing the company's stock price pattern.
 
+
+
 *Let us help him out!*
 
 We assume that Mr Z has already satisfied with the company overall performance or fundamental analysis (FA). So, we will proceed with analyzing the price pattern and developing a future price prediction model to help Mr Z determine the right time to buy the stock. In this case, we want to apply linear regression (LR) technique to develop our machine learning model. We focus on developing the LR model based on the historical data provided and we also included technical indicator in training our model to predict future prices.
+
+
 
 *Let's get started!*
 
