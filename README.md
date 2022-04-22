@@ -52,8 +52,8 @@ Great! There are no missing values in our dataset. Good quality of dataset will 
 
 Next, let us create a new dataset that contains only *Date (Index)* and *Close* columns. We need to identify if there are outliers in our dataset and we also want to see the price movement pattern.
 
-*Dataset image*
-*Dataset image*
+![Boxplot](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Boxplot.png)
+![Price_movement](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Price_Movement.png)
 
 We can conclude that there are **no outliers exist** in our dataset and the price movement is **strong uptrend**.
 *So far, so good!*
