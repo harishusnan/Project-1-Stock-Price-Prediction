@@ -121,6 +121,7 @@ Done! Now, we have trained our model and also generated predicted values. Next, 
 ###### Model Evaluation
 
 '''
+
 #evaluation metrics
 #lower MAE is better
 #closer model correlation coefficient to 1.0 the better
@@ -130,18 +131,20 @@ print("Model R squared error: ", r2_score(y_test,y_pred))
 
 '''
 
-*Model evaluation image*
+![Evaluation Metrics](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Evaluation_metrics.png)
 
 We can conclude that our linear regression model fits our data very well. Awesome!
 
 
-
+\n
+\n
 
 ##### Data Visualization and Interpretation
 
 Let's plot our Predicted values against Adjusted Close (EMA-10) values and observe the comparison.
 
 '''
+
 #convert array to dataframe
 y_pred = pd.DataFrame(y_pred)
 
@@ -156,9 +159,15 @@ plt.xlabel("Actual EMA-10",fontsize=15)
 plt.ylabel("Predicted",fontsize=15)
 plt.show()
 
+
 '''
 
-*Plot image*
+![Predicted vs EMA10 Scatter Plot](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Predicted_vs_EMA10.png)
+
+
+Let's see in bar plot as well:
+
+![Predicted vs EMA10 Bar Plot](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Predicted_vs_EMA10_barchart.png)
 
 We can clearly see that it looks like a pretty good fit. 
 
@@ -170,7 +179,7 @@ Let's add a new column which consists of labels of 'Buy' or 'Sell' or 'Hold' to 
 - When Open Price > Predicted Price == 'Sell'
 - When Open Price = Predicted Price == 'Hold'
 
-*Table*
+![Final Table](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Final_table.png)
 
 That's it! We have completely developed our linear regression model for stock prices prediction. We can try to develop stock prices prediction model using other machine learning algorithm in the future.
 
