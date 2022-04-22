@@ -9,7 +9,7 @@ Develop a supervised machine learning model using Linear Regression (LR) method 
 |Item|Link|
 |---|---|
 |Data Source (kaggle)|[act_bliz](https://www.kaggle.com/datasets/psycon/game-companies-historical-stock-price-2022-04?select=act_bliz.csv)|
-|Project Source Code|[Blizzard LR Stock Prices Prediction Model](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/Blizzard%20LR%20Model.ipynb)|
+|Project Source Code|[Stock Prices Prediction LR Model](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/Blizzard%20LR%20Model.ipynb)|
 
 ##### Problem Statement
 
