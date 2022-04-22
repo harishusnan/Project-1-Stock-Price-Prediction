@@ -39,7 +39,7 @@ histdata.head()
 
 '''
 
-![Blizzard Dataset](Dataset.png)
+![Blizzard Dataset](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset.png)
 
 ##### Data Cleaning & Preparation
 
