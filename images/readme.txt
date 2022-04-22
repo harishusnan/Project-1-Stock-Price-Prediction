@@ -1,0 +1,1 @@
+Stock of images
