@@ -1,9 +1,12 @@
 # Project-1-Stock-Price-Predictions
 
+
+##### Project Description
+
 Develop a supervised machine learning model using Linear Regression (LR) method and Exponential Moving Average (EMA) as a technical indicator
 
 
-##### Project Description
+##### Problem Statement
 
 Mr Z is a huge fan of Blizzard company and he has an extra money for an investment. He want to invest in a company with **high reputation** and the **price movement** of its stock prices is **strong uptrend**. It is important for him to analyze the company performance and its stock price pattern before he started to invest his money. Furthermore, identifying the **right time to buy the stock** is his main goal once recognizing the company's stock price pattern.
 
