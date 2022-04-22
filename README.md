@@ -6,6 +6,10 @@
 Develop a supervised machine learning model using Linear Regression (LR) method and Exponential Moving Average (EMA) as a technical indicator
 
 
+|Item|Link|
+|Data Source (kaggle)|[act_bliz](https://www.kaggle.com/datasets/psycon/game-companies-historical-stock-price-2022-04?select=act_bliz.csv)|
+|Project Source Code|[Blizzard LR Stock Prices Prediction Model](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/Blizzard%20LR%20Model.ipynb)|
+
 ##### Problem Statement
 
 Mr Z is a huge fan of Blizzard company and he has an extra money for an investment. He want to invest in a company with **high reputation** and the **price movement** of its stock prices is **strong uptrend**. It is important for him to analyze the company performance and its stock price pattern before he started to invest his money. Furthermore, identifying the **right time to buy the stock** is his main goal once recognizing the company's stock price pattern.
