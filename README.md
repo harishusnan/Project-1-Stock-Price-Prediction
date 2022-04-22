@@ -78,8 +78,8 @@ df.head(10)
 
 Since we have NaN values in our dataset, we need to clean it first before we proceed to the next steps. So, let's just drop the NaN values as it will not give a huge impact to our dataset as our dataset is quite large. NaN values existed due to no preceeding values from which EMA function could be calculated. EMA function calculated the average value by getting the values from Day 1 - Day 10 divided by count = 10 (days) and display on 10th row.
 
-*Dataset image*
-*Graph*
+![EMA Dataset Cleaned](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset_EMA10_cleaned.png)
+![Actual vs EMA10 Line Chart](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Actual_vs_EMA10_Linechart.png)
 
 EMA-10 predicts quite well the price of the stock. The plot shows that there is only a small difference between actual and EMA-10 values. Thus, we can proceed with the model development.
 
