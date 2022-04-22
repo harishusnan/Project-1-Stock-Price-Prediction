@@ -30,7 +30,7 @@ We assume that Mr Z has already satisfied with the company overall performance o
 
 First thing first, we need to import python packages and load our data before we start analyzing and developing our model.
 
-```ipynb
+```python
 
 import pandas as pd
 import numpy as np
