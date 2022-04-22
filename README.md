@@ -45,8 +45,8 @@ histdata.head()
 
 Looks like we have successfully uploaded our dataset. Now, we apply exploratory descriptive analysis (EDA) method to analyze the data through '''info()''' and '''describe()''' method. 
 
-![Dataset info](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset_describe.png)
-![Dataset describe](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset_info.png)
+![Dataset describe](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset_describe.png)
+![Dataset info](https://github.com/harishusnan/Project-1-Stock-Price-Prediction/blob/main/images/Dataset_info.png)
 
 Great! There are no missing values in our dataset. Good quality of dataset will helps us in generating a model with high accuracy.
 
