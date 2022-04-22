@@ -39,7 +39,7 @@ histdata.head()
 
 '''
 
-*Dataset image*
+![Blizzard Dataset](Dataset.png)
 
 ##### Data Cleaning & Preparation
 
